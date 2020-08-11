@@ -7,6 +7,7 @@ npm link angular library to fast developing in local environment
 
 3. npm link lib
 4.  "preserveSymlinks": true
+
 参考https://willtaylor.blog/complete-guide-to-angular-libraries/
 
 第二种情况，link到未打包的源码
@@ -15,6 +16,7 @@ npm link angular library to fast developing in local environment
 2. npm link lib
 3. "preserveSymlinks": true
 4. 修改tsconfig.app.json
+```
     "include": [
         "*.ts",
         "*/**/*.ts",
@@ -26,3 +28,4 @@ npm link angular library to fast developing in local environment
         "../node_modules/@kpmg/questionnaire/src/test.ts",
         "../node_modules/@kpmg/questionnaire/src/**/*.spec.ts"
     ]
+```
