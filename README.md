@@ -20,12 +20,12 @@ npm link angular library to fast developing in local environment
     "include": [
         "*.ts",
         "*/**/*.ts",
-        "../node_modules/@kpmg/questionnaire/src/**/*.ts"       // 需要手动加入ts编译的文件
+        "../node_modules/lib/src/**/*.ts"       // 需要手动加入ts编译的文件
     ],
     "exclude": [
         "test.ts",
         "**/*.spec.ts",
-        "../node_modules/@kpmg/questionnaire/src/test.ts",
-        "../node_modules/@kpmg/questionnaire/src/**/*.spec.ts"
+        "../node_modules/lib/src/test.ts",
+        "../node_modules/lib/src/**/*.spec.ts"
     ]
 ```
